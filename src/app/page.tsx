@@ -1,9 +1,9 @@
-import Hero from './components/Hero';
-import Projects from './components/Projects';
+import Hero from './Hero';
+import Projects from './Projects';
 
 export default function Home() {
   return (
-    <main className="container mx-auto">
+    <main>
       <Hero />
       <Projects />
     </main>
